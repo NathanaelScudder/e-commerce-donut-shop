@@ -1,0 +1,24 @@
+.pastItemsHeader {
+    border-style: none none dashed none;
+    margin: 20px 25%;
+}
+
+.ratingStarButton {
+    background-color: transparent;
+    border-style: none none none none;
+    color: green;
+    margin:0px;
+    padding:0px;
+}
+
+.pastItemsArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%
+}
+
+.starRatingForm {
+    margin:0px; padding:0px; display:inline;
+}

@@ -1,0 +1,132 @@
+body {
+    background-color: wheat;
+}
+
+.formArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.titleText {
+    text-align: center;
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.formContainer {
+    width: 40%;
+    height: auto;
+    margin: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px 0px 0px;
+}
+
+.formTitle {
+    padding: 10px;
+    font-size: large;
+    margin:-30px;
+    margin-bottom: 20px;
+    border-style: none none solid none;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+.formInputFieldArea {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5% 2% 5%;
+}                    
+
+.inputField {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+  
+.inputField:focus {
+    border-color: #4285f4;
+}
+  
+.inputField:required {
+    background-color: #fffacd;
+}
+  
+.inputField:optional {
+    background-color: #ffffff;
+}
+  
+.inputField:valid {
+    border-color: green;
+}
+  
+.inputField:invalid {
+    border-color: red;
+}
+
+.shippingField {
+    border-style: dotted dotted dotted dotted;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.shippingLegend {
+    font-size: 16px;
+}
+
+.shippingMethodLabel {
+    margin-left: 5px;
+}
+  
+.formSubmitButton {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+    .logoImage {
+        width: 50%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width:992px) {
+    .logoImage {
+        width: 30%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px) {
+    .logoImage {
+        width: 20%;
+        height: auto;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .logoImage {
+        width: 15%;
+        height: auto;
+    }
+}
